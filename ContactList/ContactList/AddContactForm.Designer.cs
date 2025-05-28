@@ -38,34 +38,35 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(60, 74);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.Size = new System.Drawing.Size(130, 22);
             this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "Ho ten";
+            this.textBox1.Text = "Họ tên";
             // 
             // maskedTextBox1
             // 
             this.maskedTextBox1.Location = new System.Drawing.Point(60, 111);
             this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(100, 22);
+            this.maskedTextBox1.Size = new System.Drawing.Size(130, 22);
             this.maskedTextBox1.TabIndex = 1;
-            this.maskedTextBox1.Text = "So dien thoai";
+            this.maskedTextBox1.Text = "Số điện thoại";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(622, 172);
+            this.button1.Location = new System.Drawing.Point(60, 200);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(105, 33);
             this.button1.TabIndex = 2;
-            this.button1.Text = "Luu";
+            this.button1.Text = "Lưu";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(60, 211);
+            this.textBox2.Location = new System.Drawing.Point(60, 157);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
+            this.textBox2.Size = new System.Drawing.Size(130, 22);
             this.textBox2.TabIndex = 3;
-            this.textBox2.Text = "email";
+            this.textBox2.Text = "Email";
             // 
             // AddContactForm
             // 
